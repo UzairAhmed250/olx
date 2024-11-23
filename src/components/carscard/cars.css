@@ -1,0 +1,51 @@
+.card-one-parent-one{
+    box-sizing: border-box;
+    box-shadow: 0 0 2px 0;
+    width: 100%;
+    border-radius: 6px;
+    /* border: 1px solid rgb(206,214,215); */
+}
+
+
+.img-parent img{
+    object-fit: cover;
+    width: 100%;
+    /* border: 1px solid red; */
+    height: 200px;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.content-parent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    margin: 10px 12px;
+}
+.fav_icon{
+    width: 25px;
+    /* border: 1px solid black; */
+}
+.prize{
+    font-weight: 700;
+    font-size: 25px;
+}
+.des_child2{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    
+}
+.meter{
+    width: 5%;
+}
+
+.des_parent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    /* align-items: self-start; */
+    margin: 10px 12px;
+
+}

@@ -1,0 +1,197 @@
+.App {
+    background-color: #fff;
+    border-bottom: 1px solid #D8DFE0;
+    height: 20vh;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+  }
+  .logo img{
+    height: 35px;
+    width: 70%;
+  }
+
+  .App-Main-header{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 15px 150px;
+    
+  }
+  .App-header {
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    gap: 50px;
+    color: rgb(22, 47, 112);
+  }
+  
+  .main-parent-two {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .moto-parent,
+  .property-parent {
+    display: flex;
+    height: 2.5rem;
+    gap: 10px;
+  }
+  .moto-pre-child-one:hover{
+    fill: red;
+    color: #54A4FE;
+    cursor: pointer;
+  }
+  .moto-pre-child-one,
+  .property-pre-child-one{
+   padding: 0 8px;
+   fill: #54A4FE;
+   color: #54A4FE;
+
+  }
+  .moto-child-one,
+  .property-child-one  {
+    display: flex;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(0, 47, 52, .16), rgba(0, 47, 52, .01) 81.77%, rgba(0, 47, 52, .01));
+    border-radius: 50%;
+  }
+  
+  .moto-child-two,
+  .property-child-two {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    color: #122F34;
+  }
+   
+  .moto-child-two:hover,
+  .property-child-two:hover{
+    color: #54A4FE;
+    cursor: pointer;
+    /* border: 1px solid black; */
+  }
+  
+  .location-search-input{
+    width: 40%;
+    /* border: 1px solid green; */
+  }
+  .location-search-input input{
+    height: 50px;
+    text-decoration: none;
+    width: 100%;
+    padding: 0 0 0 1.2rem;
+    border: 1px solid #D8DFE0;
+    /* border: 1px solid grey; */
+  
+  }
+  .location-search-input input::placeholder{
+    font-size: 16px;
+    /* border: 1px solid blueviolet; */
+    
+  }
+  
+  .second-main-parent{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+  }
+  .log-parent{
+    padding-left: 10px;
+    /* border: 1px solid yellow; */
+  }
+  .login{
+    text-decoration: underline;
+    font-weight: 700;
+    cursor: pointer;
+    font-size: 18px;
+    /* border: 1px solid yellowgreen; */
+  }
+  .login:hover{
+    text-decoration: none;
+  }
+  .search-input{
+    width: 100%;
+    /* border: 1px solid red; */
+    
+  }
+  .search-input input{
+    border: 1px solid #D8DFE0;
+    height: 50px;
+    width: 95%;
+    padding: 0 0 0 1.2rem;
+  
+  }
+  
+  .main-parent-sell{
+    display: flex;
+     /* border: 1px solid black; */
+  }
+  
+  .sellImg{
+    background-color: transparent;
+  }
+  
+  
+  .sell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: absolute;
+    padding: 14px 30px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .sell img{
+    width: 40%;
+  
+  }
+  /* .Main-parent-sell::after{
+    /* background-color: transparent; */
+    /* border-radius: 2.4rem; */
+    /* content: ""; */
+    /* height: 4.4rem; */
+    /* left: .3rem; */
+    /* position: absolute; */
+    /* top: .2rem; */
+    /* width: 9.4rem; */
+    /* z-index: -1; */
+    /* border: 3px black solid; */
+  /* } */
+  
+  /*
+  @media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+      animation: App-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .App-link {
+    color: #61dafb;
+  }
+  
+  @keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  } */

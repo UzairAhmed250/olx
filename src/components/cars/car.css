@@ -1,0 +1,44 @@
+.parent-div{
+    margin: 12px 150px; 
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    width: 81.2%;
+    /* padding: 12px 0px; */
+}
+.parent-one-child-two{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+.child-two{
+    display: flex;
+    align-items: center;
+    /* gap: 10px; */
+    color: #3a77ff;
+    font-size: 14px;
+    font-weight: 700;
+    cursor: pointer;
+    
+    /* border: 1px solid black; */
+}
+.child-one{
+    font-weight: 700;    
+    color: #4077FF;
+    /* border: 1px solid black; */
+}
+.parent-one-child-one{
+    font-size: 22px;
+    font-weight: 700;
+    color: #122F34;
+    cursor: default;
+    /* border: 1px solid blue; */
+}
+.aaa_999{
+    display: flex;
+    justify-content: center;
+    /* border: 1px solid black; */
+    gap: 20px;
+    /* flex-wrap: wrap; */
+}

@@ -1,0 +1,34 @@
+.main-parent{
+    display: flex;
+    justify-content: space-between;
+    margin: 18px 150px;
+}
+.child1{
+    font-size: 22px;
+    font-weight: 700;
+    color: #122F34;
+    cursor: default;
+    border: 1px solid black;
+}
+.child2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #3a77ff;
+    font-size: 18px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.child3{
+    /* border: 1px solid black; */
+    font-size: 14px;
+}
+
+.abc_cards{
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

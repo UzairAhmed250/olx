@@ -1,0 +1,38 @@
+
+.parent-main-list{
+    /* background-color: ; */
+    display: flex;
+    /* height: 100vh; */
+    width: 43%;
+    gap: 20px;
+    margin: 10px 150px;
+    /* padding: 10px 150px; */
+    font-size: 13px;
+    cursor: pointer;
+    /* border: 1px solid black; */
+}
+.list-child-two:hover,
+.list-child-three:hover,
+.list-child-four:hover,
+.list-child-five:hover,
+.list-child-six:hover,
+.list-child-seven:hover,
+.list-child-eight:hover{
+    
+    color: #00a49f ;
+}
+.list-child-one{
+    display: flex;
+    height: 20px;
+    gap: 5px;
+    font-weight: 500 !important;
+    font-size: 14px !important;
+}
+.list-child-one:hover{
+    color: none !important;
+}
+.drop-down{
+    display: flex;
+    align-items: center;
+    width: 15px;
+}

@@ -1,0 +1,85 @@
+.cat{
+    margin: 12px 150px;
+    width: 12%;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+/* .all-cate-main-parent{
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    text-align: center;
+    margin: 12px 150px;
+    border: 1px solid black;
+    gap: 15px
+} */
+
+/* .all-cate-main-parent img{
+    width: "80px";
+    border: 1px solid black;
+} */
+/* .sale-child-two,
+.rent-child-two{
+    width: 45%;
+    margin: 0 auto;
+    align-items: center;
+    text-align: center;
+} */
+
+/* .electronic-child-two{
+    width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+.furniture-child-two{
+    width: 100%;
+    margin: 0 auto;
+}
+.book-child-two{
+    width: 80%;
+    margin: auto;
+} */
+
+/* .mobile-link,
+.vechile-link,
+.Property-sale-link,
+.property-rent-link,
+.electronic-link,
+.bike-link,
+.buisness-link,
+.service-link,
+.job-link,
+.animal-link,
+.furniture-link,
+.fashion-link,
+.books-link,
+.kid-link{
+    border: 1px solid black;
+    width: 10%;
+} */ 
+
+.imgSec{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 8%;
+    text-align: center;
+    align-items: center;
+    font-weight: 700;
+
+    
+}
+.imgSec img{
+    width: 90px;
+    align-items: center;    
+}
+.mainSec{
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    gap: 44px;
+    margin: 22px 150px;
+
+}
